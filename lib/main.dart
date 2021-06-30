@@ -19,9 +19,28 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         // judul
         appBar: AppBar(
-          title: Text("Aplikasi Hello World"),
+          title: Text("Aplikasi"),
         ),
-        body: Center(child: Text("Horas Dunia")),
+        body: Center(
+            child: Container(
+          color: Colors.lightBlue,
+          width: 150,
+          height: 100,
+          child: Text(
+            "aplikasi yang dibangun menggunakan flutter sebagai percobaan pertama",
+            // maxLines:
+            //     2, //max line hanya 2 baris jika panjang 3 baris maka akan terpotong tergantung width dan height
+            // overflow: TextOverflow
+            //     .ellipsis, //elipsis itu memberikan tanda titik2 kalau terporong
+            // softWrap: false,
+            // textAlign: TextAlign.center,
+            style: TextStyle(
+                color: Colors.white,
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.bold,
+                fontSize: 14),
+          ),
+        )),
       ), //pasang widget scaffold tampilan dasar
     );
   }
