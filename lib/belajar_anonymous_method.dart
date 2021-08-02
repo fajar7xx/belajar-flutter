@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyAnomMethod());
 
 class MyAnomMethod extends StatefulWidget {
-  const MyAnomMethod({Key? key}) : super(key: key);
+  // const MyAnomMethod({Key? key}) : super(key: key);
 
   @override
   _MyAnomMethodState createState() => _MyAnomMethodState();

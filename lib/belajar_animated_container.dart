@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarAnimatedContainer());
 
 class BelajarAnimatedContainer extends StatefulWidget {
-  const BelajarAnimatedContainer({Key? key}) : super(key: key);
+  // const BelajarAnimatedContainer({Key? key}) : super(key: key);
 
   @override
   _BelajarAnimatedContainerState createState() =>

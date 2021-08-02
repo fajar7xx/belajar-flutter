@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarImageWidget());
 
 class BelajarImageWidget extends StatelessWidget {
-  const BelajarImageWidget({Key? key}) : super(key: key);
+  // const BelajarImageWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

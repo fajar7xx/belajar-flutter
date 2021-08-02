@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarListView());
 
 class BelajarListView extends StatefulWidget {
-  const BelajarListView({Key? key}) : super(key: key);
+  // const BelajarListView({Key? key}) : super(key: key);
 
   @override
   _BelajarListViewState createState() => _BelajarListViewState();

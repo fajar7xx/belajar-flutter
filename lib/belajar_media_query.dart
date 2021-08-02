@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarMediaQuery());
 
 class BelajarMediaQuery extends StatelessWidget {
-  const BelajarMediaQuery({Key? key}) : super(key: key);
+  // const BelajarMediaQuery({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class BelajarMediaQuery extends StatelessWidget {
 }
 
 class MainPage extends StatelessWidget {
-  const MainPage({Key? key}) : super(key: key);
+  // const MainPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

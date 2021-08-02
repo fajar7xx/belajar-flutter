@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarDragable());
 
 class BelajarDragable extends StatefulWidget {
-  const BelajarDragable({Key? key}) : super(key: key);
+  // const BelajarDragable({Key? key}) : super(key: key);
 
   @override
   _BelajarDragableState createState() => _BelajarDragableState();
@@ -13,7 +13,7 @@ class _BelajarDragableState extends State<BelajarDragable> {
 // variable
   Color color1 = Colors.redAccent;
   Color color2 = Colors.blueAccent;
-  late Color targetColor;
+  Color targetColor;
   bool isAccepted = false;
 
   @override

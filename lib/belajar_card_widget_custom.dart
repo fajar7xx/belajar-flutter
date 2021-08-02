@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarCardWidgetCustom());
 
 class BelajarCardWidgetCustom extends StatelessWidget {
-  const BelajarCardWidgetCustom({Key? key}) : super(key: key);
+  // const BelajarCardWidgetCustom({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class BelajarCardWidgetCustom extends StatelessWidget {
 }
 
 class MainPageSecond extends StatelessWidget {
-  const MainPageSecond({Key? key}) : super(key: key);
+  // const MainPageSecond({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

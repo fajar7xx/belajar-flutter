@@ -5,7 +5,7 @@ void main() => runApp(BelajarStatefullWidget());
 
 // buat statefullwidget
 class BelajarStatefullWidget extends StatefulWidget {
-  const BelajarStatefullWidget({Key? key}) : super(key: key);
+  // const BelajarStatefullWidget({Key? key}) : super(key: key);
 
   @override
   _BelajarStatefullWidgetState createState() => _BelajarStatefullWidgetState();

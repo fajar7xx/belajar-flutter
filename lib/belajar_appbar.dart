@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarAppbar());
 
 class BelajarAppbar extends StatelessWidget {
-  const BelajarAppbar({Key? key}) : super(key: key);
+  // const BelajarAppbar({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarStackAlign());
 
 class BelajarStackAlign extends StatelessWidget {
-  const BelajarStackAlign({Key? key}) : super(key: key);
+  // const BelajarStackAlign({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(BelajarSpacerWidget());
 
 class BelajarSpacerWidget extends StatelessWidget {
-  const BelajarSpacerWidget({Key? key}) : super(key: key);
+  // const BelajarSpacerWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
