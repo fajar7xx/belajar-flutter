@@ -1,8 +1,6 @@
 import 'package:aplikasi_hello_world/model/post_result_model.dart';
 import 'package:flutter/material.dart';
 
-import 'model/user_model.dart';
-
 void main() => runApp(BelajarPostApi());
 
 class BelajarPostApi extends StatefulWidget {
@@ -25,7 +23,6 @@ class _BelajarPostApiState extends State<BelajarPostApi> {
   );
 
   PostResult postResult;
-  User user;
 
   // pasti masih error
 
@@ -39,18 +36,14 @@ class _BelajarPostApiState extends State<BelajarPostApi> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   // Text("Hasil Kembalian"),
-                  // Text((postResult != null)
-                  //     ? postResult.id +
-                  //         "|" +
-                  //         postResult.name +
-                  //         "|" +
-                  //         postResult.job +
-                  //         "|" +
-                  //         postResult.created
-                  //     : "tidak ada data"),
-
-                  Text((user != null)
-                      ? user.id + "|" + user.name
+                  Text((postResult != null)
+                      ? postResult.id +
+                          "|" +
+                          postResult.name +
+                          "|" +
+                          postResult.job +
+                          "|" +
+                          postResult.created
                       : "tidak ada data"),
                   // RaisedButton(
                   //   onPressed: () {},
@@ -59,17 +52,12 @@ class _BelajarPostApiState extends State<BelajarPostApi> {
                   ElevatedButton(
                       style: raisedButtonStyle,
                       onPressed: () {
-                        // PostResult.connectToAPI("fajar", "Guru").then((value) {
-                        //   postResult = value;
-                        //   setState(() {});
-                        // });
-                        User.connectToAPI("7").then((value) {
-                          user = value;
+                        PostResult.connectToAPI("fajar", "Guru").then((value) {
+                          postResult = value;
                           setState(() {});
                         });
                       },
-                      // child: Text("post"))
-                      child: Text("Get"))
+                      child: Text("post"))
                 ],
               ),
             )));
