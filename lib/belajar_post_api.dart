@@ -26,6 +26,7 @@ class _BelajarPostApiState extends State<BelajarPostApi> {
 
   PostResult postResult;
   User user;
+  String output = "no data";
 
   // pasti masih error
 
@@ -38,6 +39,7 @@ class _BelajarPostApiState extends State<BelajarPostApi> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
+                  Text(output),
                   // Text("Hasil Kembalian"),
                   // Text((postResult != null)
                   //     ? postResult.id +
@@ -63,8 +65,17 @@ class _BelajarPostApiState extends State<BelajarPostApi> {
                         //   postResult = value;
                         //   setState(() {});
                         // });
-                        User.connectToAPI("7").then((value) {
-                          user = value;
+
+                        //get spesifik data
+                        // User.connectToAPI("7").then((value) {
+                        //   user = value;
+                        //   setState(() {});
+                        // });
+
+                        User.getUsers("2").then((users) {
+                          output = "";
+                          for (int i = 0; i < users.length; i++)
+                            output = output + "[ " + users[i].name + " ]";
                           setState(() {});
                         });
                       },
