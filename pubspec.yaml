@@ -49,6 +49,7 @@ flutter:
   assets:
     - assets/boy.jpg
     - assets/pattern/pattern.png
+    - assets/cute.png
   #   - images/a_dot_burr.jpeg 
   #   - images/a_dot_ham.jpeg
 
