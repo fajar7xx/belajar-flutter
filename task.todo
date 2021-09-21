@@ -37,8 +37,8 @@ link youtube:
     ☐ flutter 37 FLUTTER 37. HTTP Request / Koneksi ke API (Get Method) https://youtu.be/wZMCS2W82UI?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV
     ☐ flutter 38 FLUTTER 38. HTTP Request / Koneksi ke API (Kumpulan Data) https://youtu.be/x5wU6ZOFLpE?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV
     ✔ flutter 39 Switch & AnimatedSwitcher Widget https://youtu.be/39EqD-_iUdI?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV @done(21-09-15 10:05)
-    ☐ flutter 40
-    ☐ flutter 41
+    ✔ flutter 40 AnimatedPadding Widget https://youtu.be/VQGNLqTpoX8?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV @done(21-09-21 10:59)
+    ☐ flutter 41 Shared Preferences & Double Question Mark Operator (??) https://youtu.be/U9Mg-Ce1yv0?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV
     ☐ flutter 42
     ☐ flutter 43
     ☐ flutter 44
@@ -60,3 +60,10 @@ link youtube:
     ☐ flutter 60
 
 
+issue:
+    ☐ permasalahan jika ketika install shared preferences dan ternyata erro coba cek link ini https://github.com/flutter/flutter/issues/66833 lalu liat pada bagian Building & Running the project:
+        ☐ dia menjelaskan hanya dengan cara:
+            ☐ flutter clean
+            ☐ flutter pub cache repair
+            ☐ flutter run
+            maka aplikasi akan jalan normal, hal ini di akibatkan karena ada upgrade flutter seperti nya. lebih detailnya silahkan liat issue yang bearkembang
