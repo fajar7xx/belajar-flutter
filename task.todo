@@ -38,8 +38,8 @@ link youtube:
     ☐ flutter 38 FLUTTER 38. HTTP Request / Koneksi ke API (Kumpulan Data) https://youtu.be/x5wU6ZOFLpE?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV
     ✔ flutter 39 Switch & AnimatedSwitcher Widget https://youtu.be/39EqD-_iUdI?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV @done(21-09-15 10:05)
     ✔ flutter 40 AnimatedPadding Widget https://youtu.be/VQGNLqTpoX8?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV @done(21-09-21 10:59)
-    ☐ flutter 41 Shared Preferences & Double Question Mark Operator (??) https://youtu.be/U9Mg-Ce1yv0?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV
-    ☐ flutter 42
+    ✔ flutter 41 Shared Preferences & Double Question Mark Operator (??) https://youtu.be/U9Mg-Ce1yv0?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV @done(21-09-25 09:17)
+    ☐ flutter 42 Provider State Management https://youtu.be/NNKKpECZUnw?list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV coba cari cek dokumentasi lainnya
     ☐ flutter 43
     ☐ flutter 44
     ☐ flutter 45
@@ -67,3 +67,6 @@ issue:
             ☐ flutter pub cache repair
             ☐ flutter run
             maka aplikasi akan jalan normal, hal ini di akibatkan karena ada upgrade flutter seperti nya. lebih detailnya silahkan liat issue yang bearkembang
+
+package:
+    ☐ semua package flutter yang flutter https://pub.dev/flutter/favorites
